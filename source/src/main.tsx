@@ -8,7 +8,10 @@ function fit() {
   const phone = w <= 500, pad = phone ? 0 : 32;
   let s = Math.min((w - pad) / 402, (h - pad) / 874);
   if (!phone) s = Math.min(s, 1);
+  // On phones: fill the whole screen. Scale by width, and stretch the app's height to the screen.
+  if (phone) s = w / 402;
   document.documentElement.style.setProperty("--fit", s.toFixed(4));
+  document.documentElement.style.setProperty("--hf-h", (phone ? h / s : 874).toFixed(1) + "px");
   document.documentElement.classList.toggle("hf-mobile", phone);
 }
 fit();

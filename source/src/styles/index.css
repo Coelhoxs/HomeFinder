@@ -15,3 +15,10 @@ h1,h2,h3,h4,p{margin:0}
 .hf-mobile .hf-stage{background:#EFEEF2!important}
 .hf-mobile .hf-phone{box-shadow:none!important}
 .hf-mobile .hf-phone,.hf-mobile .hf-phone>div{border-radius:0!important}
+/* Phones: the app fills the screen and uses the phone's real status bar and home indicator */
+.hf-mobile .hf-phone{height:var(--hf-h)!important}
+.hf-mobile .hf-statusbar{height:max(12px,env(safe-area-inset-top))!important;overflow:hidden}
+.hf-mobile .hf-statusbar>*{visibility:hidden}
+.hf-mobile .hf-homebar{height:max(6px,env(safe-area-inset-bottom))!important}
+.hf-mobile .hf-homebar>*{display:none}
+html.hf-mobile,html.hf-mobile body{background:#EFEEF2}

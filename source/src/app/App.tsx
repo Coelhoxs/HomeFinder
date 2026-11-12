@@ -273,7 +273,7 @@ function Toggle({value,onChange}:{value:boolean;onChange:(v:boolean)=>void}){
 function StatusBar(){
   const {C}=useTheme();
   return (
-    <div style={{flexShrink:0,display:"flex",alignItems:"center",justifyContent:"space-between",height:54,paddingLeft:24,paddingRight:24}}>
+    <div className="hf-statusbar" style={{flexShrink:0,display:"flex",alignItems:"center",justifyContent:"space-between",height:54,paddingLeft:24,paddingRight:24}}>
       <span style={{fontSize:15,fontWeight:600,color:C.ink}}>9:41</span>
       <div style={{display:"flex",alignItems:"center",gap:6}}>
         <svg width="16" height="12" viewBox="0 0 16 12" fill={C.ink}><rect x="0" y="4" width="3" height="8" rx="0.5" opacity="0.3"/><rect x="4" y="3" width="3" height="9" rx="0.5" opacity="0.5"/><rect x="8" y="1" width="3" height="11" rx="0.5" opacity="0.7"/><rect x="12" y="0" width="3" height="12" rx="0.5"/></svg>
@@ -304,7 +304,7 @@ function BottomNav(){
           );
         })}
       </div>
-      <div style={{height:28,display:"flex",alignItems:"flex-end",justifyContent:"center",paddingBottom:8}}>
+      <div className="hf-homebar" style={{height:28,display:"flex",alignItems:"flex-end",justifyContent:"center",paddingBottom:8}}>
         <div style={{width:134,height:5,borderRadius:999,background:C.ink}}/>
       </div>
     </div>
