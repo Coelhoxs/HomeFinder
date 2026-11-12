@@ -1,6 +1,6 @@
 # Home Finder — Interactive Prototype
 
-**Live prototype:** https://coelhoxs.github.io/homefinder/
+**Live prototype:** https://coelhoxs.github.io/HomeFinder/
 
 Home Finder is a rental-search app concept for the German long-term rental market, designed around Rachel, a renter in Berlin. The prototype covers the core flows: search with location and filters, results, listing detail, messaging, applications, favourites, alerts, settings and accessibility options (high contrast, text size, tab labels).
 
