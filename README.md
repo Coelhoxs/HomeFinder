@@ -18,4 +18,4 @@ To rebuild the live site, run `npm run build` in `source/` and copy the contents
 
 ## Credits
 
-UX/UI design: Soxiu Coelho · Prototyped with Figma Make · Photos from [Unsplash](https://unsplash.com).
+UX/UI bootcamp project · Prototyped with Figma Make · Photos from [Unsplash](https://unsplash.com).
